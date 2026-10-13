@@ -1,0 +1,8 @@
+Model,Group,Train Acc,Test Acc,Precision,Recall,F1,ROC-AUC
+Majority baseline,Baseline,0.6438,0.6375,0.0,0.0,0.0,0.5
+Decision Stump (depth 1),Individual tree,0.8312,0.8625,0.875,0.7241,0.7925,0.8327
+Shallow Tree (depth 3),Individual tree,0.9281,0.8875,0.8125,0.8966,0.8525,0.9216
+Full Decision Tree,Individual tree,0.9938,0.8625,0.7647,0.8966,0.8254,0.8698
+Random Forest (bagging ref.),Bagging reference,0.9938,0.9,0.8387,0.8966,0.8667,0.9266
+"AdaBoost (stumps, 50)",Boosting,0.9281,0.8625,0.8214,0.7931,0.807,0.9327
+"AdaBoost (depth-2 trees, 50)",Boosting,0.9469,0.875,0.8276,0.8276,0.8276,0.949
